@@ -9,6 +9,9 @@
       "Alyou\\BelajarPhpLogging2\\": "src/"
     }
   },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
   "autoload-dev": {
     "psr-4": {
       "Alyou\\BelajarPhpLogging2\\": "tests/"
