@@ -1,4 +1,2 @@
-[2025-04-26T09:00:07.179931+02:00] Alyou\Belajar\Php\Logging2\LoggerTest.INFO: Info message {"username":"Khnnedy"} []
-[2025-04-26T09:00:07.182504+02:00] Alyou\Belajar\Php\Logging2\LoggerTest.WARNING: Warning message {"password":"Khnnedy"} []
-[2025-04-26T09:00:51.334097+02:00] Alyou\Belajar\Php\Logging2\LoggerTest.INFO: Info message {"username":"Khnnedy"} []
-[2025-04-26T09:00:51.335822+02:00] Alyou\Belajar\Php\Logging2\LoggerTest.WARNING: Warning message {"password":"Khnnedy"} []
+{"message":"Info message","context":{"username":"Khnnedy"},"level":200,"level_name":"INFO","channel":"Alyou\\Belajar\\Php\\Logging2\\LoggerTest","datetime":"2025-04-26T15:34:49.013867+02:00","extra":{}}
+{"message":"Warning message","context":{"password":"Khnnedy"},"level":300,"level_name":"WARNING","channel":"Alyou\\Belajar\\Php\\Logging2\\LoggerTest","datetime":"2025-04-26T15:34:49.014322+02:00","extra":{}}

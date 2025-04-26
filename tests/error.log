@@ -1,0 +1,4 @@
+{"message":"Info message","context":{"username":"Khnnedy"},"level":200,"level_name":"INFO","channel":"Alyou\\Belajar\\Php\\Logging2\\LoggerTest","datetime":"2025-04-26T15:34:08.700143+02:00","extra":{}}
+{"message":"Warning message","context":{"password":"Khnnedy"},"level":300,"level_name":"WARNING","channel":"Alyou\\Belajar\\Php\\Logging2\\LoggerTest","datetime":"2025-04-26T15:34:08.700750+02:00","extra":{}}
+{"message":"Info message","context":{"username":"Khnnedy"},"level":200,"level_name":"INFO","channel":"Alyou\\Belajar\\Php\\Logging2\\LoggerTest","datetime":"2025-04-26T15:34:26.469844+02:00","extra":{}}
+{"message":"Warning message","context":{"password":"Khnnedy"},"level":300,"level_name":"WARNING","channel":"Alyou\\Belajar\\Php\\Logging2\\LoggerTest","datetime":"2025-04-26T15:34:26.470679+02:00","extra":{}}
