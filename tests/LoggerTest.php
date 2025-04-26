@@ -15,4 +15,11 @@ class LoggerTest extends \PHPUnit\Framework\TestCase
         // $this->assertFileExists('app.log');
         // $this->assertStringContainsString("Test message", file_get_contents('app.log'));
     }
+
+    public function testLoggerWithName()
+    {
+        $logger = new Logger(LoggerTest::class);
+
+        self::assertNotNull($logger);
+    }
 }
