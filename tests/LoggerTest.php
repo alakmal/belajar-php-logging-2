@@ -4,6 +4,8 @@ namespace Alyou\Belajar\Php\Logging2;
 
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
+use Monolog\Processor\GitProcessor;
+use Monolog\Processor\MemoryUsageProcessor;
 
 class LoggerTest extends \PHPUnit\Framework\TestCase
 {
@@ -13,9 +15,16 @@ class LoggerTest extends \PHPUnit\Framework\TestCase
         $logger->pushHandler(new StreamHandler(("php://stdout")));
         $logger->pushHandler(new StreamHandler(__DIR__ . "/../error.log"));
 
-        $logger->info("Info message", ["username" => "Khnnedy"]);
-        $logger->warning("Warning message", ["password" => "Khnnedy"]);
+        $logger->pushProcessor(new GitProcessor());
+        $logger->pushProcessor(new MemoryUsageProcessor());
 
+        for ($i = 0; $i < 1000; $i++) {
+            $logger->info("Logo-{$i}");
+
+            if ($i % 100 == 0) {
+                $logger->reset();
+            }
+        }
         self::assertNotNull($logger);
     }
 }
