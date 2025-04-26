@@ -1,0 +1,4 @@
+[2025-04-26T09:00:07.179931+02:00] Alyou\Belajar\Php\Logging2\LoggerTest.INFO: Info message {"username":"Khnnedy"} []
+[2025-04-26T09:00:07.182504+02:00] Alyou\Belajar\Php\Logging2\LoggerTest.WARNING: Warning message {"password":"Khnnedy"} []
+[2025-04-26T09:00:51.334097+02:00] Alyou\Belajar\Php\Logging2\LoggerTest.INFO: Info message {"username":"Khnnedy"} []
+[2025-04-26T09:00:51.335822+02:00] Alyou\Belajar\Php\Logging2\LoggerTest.WARNING: Warning message {"password":"Khnnedy"} []
