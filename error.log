@@ -1,0 +1,7 @@
+[2025-04-26T08:53:30.590694+02:00] test_logger.INFO: This is an info message [] []
+[2025-04-26T08:53:30.592460+02:00] test_logger.NOTICE: This is a notice message [] []
+[2025-04-26T08:53:30.593061+02:00] test_logger.WARNING: This is a warning message [] []
+[2025-04-26T08:53:30.594243+02:00] test_logger.ERROR: This is an error message [] []
+[2025-04-26T08:53:30.594547+02:00] test_logger.CRITICAL: This is a critical message [] []
+[2025-04-26T08:53:30.594834+02:00] test_logger.ALERT: This is an alert message [] []
+[2025-04-26T08:53:30.595027+02:00] test_logger.EMERGENCY: This is an emergency message [] []
