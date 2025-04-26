@@ -9,6 +9,11 @@
       "Alyou\\BelajarPhpLogging2\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Alyou\\BelajarPhpLogging2\\": "tests/"
+    }
+  },
   "authors": [
     {
       "name": "alyouma",
