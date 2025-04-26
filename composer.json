@@ -1,0 +1,21 @@
+{
+  "name": "alyou/belajar-php-logging-2",
+  "type": "project",
+  "require-dev": {
+    "phpunit/phpunit": "9.5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Alyou\\BelajarPhpLogging2\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "alyouma",
+      "email": "alyoumaakmal4@gmail.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "^3.9"
+  }
+}
