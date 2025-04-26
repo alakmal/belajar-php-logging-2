@@ -1,0 +1,1 @@
+[2025-04-26T09:11:16.245114+02:00] Alyou\Belajar\Php\Logging2\LoggerTest.INFO: test processor {"context":"this is a context"} {"pzn":{"author":"Alyou","application":"Belajar PHP Logging"},"memory_usage":"4 MB","git":{"branch":"6.processor","commit":"240a8a5f2551fe24d072e871a3136bcac5dae41f"}}
